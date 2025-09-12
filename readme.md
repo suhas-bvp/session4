@@ -3,17 +3,28 @@ This project implements a basic Convolutional Neural Network (CNN) for classifyi
 ## Project Structure
 
 ├── data/
+
 │ └── MNIST/
+
 │ └── raw/
+
 │ ├── t10k-images-idx3-ubyte
+
 │ ├── t10k-images-idx3-ubyte.gz
+
 │ ├── t10k-labels-idx1-ubyte
+
 │ ├── t10k-labels-idx1-ubyte.gz
+
 │ ├── train-images-idx3-ubyte
+
 │ ├── train-images-idx3-ubyte.gz
+
 │ ├── train-labels-idx1-ubyte
+
 │ └── train-labels-idx1-ubyte.gz
-└── mnist_cnn.py
+
+└── **mnist_cnn.py**
 
 
 - `mnist_cnn.py`: Contains the CNN model definition, data loading, training, and evaluation logic.
